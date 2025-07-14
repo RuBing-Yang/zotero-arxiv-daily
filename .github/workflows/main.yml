@@ -6,6 +6,7 @@ on:
 
 jobs:
   calculate-and-send:
+    environment: SMTP_SERVER
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
